@@ -1,6 +1,7 @@
 body {
   text-align: center;
   background-color: #011F3F;
+  font-family: "Montserrat", sans-serif;
 }
 
 #level-title {
@@ -51,3 +52,23 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+.instructions {
+  color: white;
+}
+
+.instructions h2{
+  font-size: 2rem;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.instructions ol {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.instructions li {
+  font-size: 1.1rem;
+}
+
