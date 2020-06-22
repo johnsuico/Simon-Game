@@ -27,6 +27,28 @@ body {
   border-radius: 20%;
 }
 
+@media screen and (min-width: 768px) {
+  .btn {
+    margin: 20px;
+    display: inline-block;
+    height: 170px;
+    width: 170px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    margin: 20px;
+    display: inline-block;
+    height: 170px;
+    width: 170px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+}
+
 .game-over {
   background-color: red;
   opacity: 0.8;
@@ -59,7 +81,6 @@ body {
 
 .instructions h2{
   font-size: 2rem;
-  width: 40%;
   margin: 0 auto;
 }
 
